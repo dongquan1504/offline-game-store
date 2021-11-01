@@ -1,3 +1,4 @@
+// import DirectoryActionTypes from './directory.types';
 import actionsIntroImg from "../../assets/images/category/actions.jpg";
 import adventuresIntroImg from "../../assets/images/category/adventures.jpg";
 import educationsIntroImg from "../../assets/images/category/educations.jpg";
@@ -42,6 +43,34 @@ const INTIAL_STATE = {
       imageUrl: tacticsIntroImg,
       linkUrl: "shop/tactics",
       id: 6,
+    },
+    {
+      title: "ROLE-PLAYINGs",
+      imageUrl: tacticsIntroImg,
+      linkUrl: "shop/role-playings",
+      id: 7,
+    },{
+      title: 'RACINGs',
+      imageUrl: tacticsIntroImg,
+      linkUrl: "shop/racings",
+      id: 8,
+    },
+    {
+      title: "CASINOs",
+      imageUrl: tacticsIntroImg,
+      linkUrl: "shop/casinos",
+      id: 9,
+    },{
+      title: "RIDDLEs",
+      imageUrl: tacticsIntroImg,
+      linkUrl: "shop/riddles",
+      id: 10,
+    },
+    {
+      title: "SIMULATIONs",
+      imageUrl: tacticsIntroImg,
+      linkUrl: "shop/simulations",
+      id: 10,
     },
   ],
 };

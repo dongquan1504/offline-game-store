@@ -5,7 +5,10 @@
   flex-direction: row;
   justify-content: center;
   .category {
-    width: 20%;
+    border: 1px solid darkblue;
+    background: linear-gradient(to top, #c314312c, #240b36);
+    margin-right: 5px;
+    width: 18%;
   }
   .review {
     width: 80%;

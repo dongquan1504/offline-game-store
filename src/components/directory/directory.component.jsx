@@ -22,9 +22,11 @@ const Directory = ({ sections }) => (
     <div className="review">
       <h2>Review </h2>
       <div className="review-directory">
-        {sections.map(({ id, ...otherSectionProps }) => (
-          <MenuReview key={id} {...otherSectionProps} />
-        ))}
+        {sections
+          .filter((item, idx) => idx < 6)
+          .map(({ id, ...otherSectionProps }) => (
+            <MenuReview key={id} {...otherSectionProps} />
+          ))}
       </div>
     </div>
   </div>
